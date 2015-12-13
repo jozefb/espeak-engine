@@ -1,4 +1,4 @@
-# espeak-engine
+# Espeak Engine
 The ESpeakEngine is Objective-C static library containing light wrapper for eSpeak open source speech synthesizer.
 It does not add any new features to eSpeak, it only exposes its funcionality as Objective-C class methods and combines this functionality with iOS _AVFoundation Framework_
 
@@ -14,9 +14,9 @@ The ESpeakEngine is Objectice-C static library project containing very light wra
 Usage of the ESpeakEngine is very easy, You have to add:
 
 * link the ESpeakEngine static library project (ESpeakEngine static library project has to be located at same directory as a main project)
-* link the AVFundation.Framework
-* add path to folder eSpeak_1.0/Classes in Target Build Settings: Header Search Paths
-* link ESpeakEngine data folder espeak-data in main project (drag it in Project Navigator pane from linked eSpeak.xcodeproj project & drop it to any location in a main project)
+* link the _AVFundation.Framework_
+* add path to folder _eSpeak_1.0/Classes_ in Target Build Settings: _Header Search Paths_
+* link ESpeakEngine data folder espeak-data in main project (drag it in Project Navigator pane from linked _eSpeak.xcodeproj_ project & drop it to any location in a main project)
 Then import the ESpeakEngine header in class which is holding engine instance:
 ```objc
 #import "ESpeakEngine.h"
